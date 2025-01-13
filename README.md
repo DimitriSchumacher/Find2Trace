@@ -1,4 +1,4 @@
----Find2Trace Readme---
+# Find2Trace Readme
 
 Napari program to automatically detect spacially static features in a stack. The program can plot the time-traces of the detected features. The traces can be clicked individually to be hand-picked and selected, which will create a new layer of hand-picked features. The traces of the hand-picked features can be visualized again separately. The active layer traces can be saved as a .csv file. 
 
@@ -10,7 +10,7 @@ An example stack can be found in the /TestData directory.
 
 !Warning! --> when using small screens, the widgets of the Napari program might overlap, covering up some of the sliders/buttons. To fix this, just release and dock one of the widgets again. 
 
-Required Python packages: 
+## Required Python packages: 
 napari
 numpy
 opencv-python (cv2)
